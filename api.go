@@ -12,7 +12,7 @@ import (
 func main() {
 	fmt.Print("TESTE")
 	http.HandleFunc("/api/test", HandleTest)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":9090", nil))
 }
 
 func HandleTest(w http.ResponseWriter, r *http.Request) {
