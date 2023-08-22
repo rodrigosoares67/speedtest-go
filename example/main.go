@@ -7,7 +7,7 @@ import (
 	"github.com/showwin/speedtest-go/speedtest"
 )
 
-func main() {
+func teste() {
 	// _, _ = speedtest.FetchUserInfo()
 	// Get a list of servers near a specified location
 	// user.SetLocationByCity("Tokyo")

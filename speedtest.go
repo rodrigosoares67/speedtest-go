@@ -30,7 +30,7 @@ var (
 	debug         = kingpin.Flag("debug", "Enable debug mode.").Short('d').Bool()
 )
 
-func main() {
+func speedTest() {
 
 	kingpin.Version(speedtest.Version())
 	kingpin.Parse()
